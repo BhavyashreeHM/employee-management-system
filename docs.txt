@@ -8,3 +8,7 @@ go run cmd/server.go
 
 git status
 git add .
+git commit -m "Gin Server Running on PORT "
+git push -u origin main
+go get github.com/lib/pq
+go get github.com/jackc/pgx/v5
